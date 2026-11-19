@@ -8,6 +8,7 @@ def letra_a_posicion(letra: str):
         return None
 
 
+
 def posicion_a_letra(posicion: int):
     if posicion >= 0 and posicion < len(alfabeto):
         return alfabeto[posicion]
